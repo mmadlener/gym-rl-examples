@@ -36,4 +36,5 @@ for e in range(episodes):
 print('Did not solve after {} episodes '.format(e))
 
 if e == episodes - 1:
+  env.close()
   input('Did not solve after {} episodes '.format(episodes))
